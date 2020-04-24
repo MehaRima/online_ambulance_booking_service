@@ -1,0 +1,78 @@
+<?php
+session_start();
+include('includes/config.php');
+if(isset($_POST['login']))
+{
+$uname=$_POST['username'];
+$password=md5($_POST['password']);
+$sql ="SELECT UserName,Password FROM admin WHERE UserName=:email and Password=:password";
+$query= $dbh -> prepare($sql);
+$query-> bindParam(':email', $uname, PDO::PARAM_STR);
+$query-> bindParam(':password', $password, PDO::PARAM_STR);
+$query-> execute();
+$results=$query->fetchAll(PDO::FETCH_OBJ);
+if($query->rowCount() > 0)
+{
+$_SESSION['alogin']=$_POST['username'];
+echo "<script type='text/javascript'> document.location = 'change-password.php'; </script>";
+} else{
+  
+  echo "<script>alert('Invalid Details');</script>";
+
+}
+
+}
+
+?>
+######################################################3
+<section class="search">
+		<div class="wrapper">
+		<div id="fom">
+			<form method="post">
+			<h3 style="text-align:center; color: #000099; font-weight:bold; text-decoration:underline">Admin Login Area</h3>
+				<table height="100" align="center">
+					<tr>
+						<td>Email Address:</td>
+						<td><input type="text" name="uname" placeholder="Enter Username" required></td>
+					</tr>
+					<tr>
+						<td>Password:</td>
+						<td><input type="password" name="pass" placeholder="Enter Password" required></td>
+					</tr>
+					<tr>
+						<td colspan="2" style="text-align:center"><input type="submit" name="login" value="Login Here"></td>
+					</tr>
+				</table>
+			</form>
+			<?php
+				if(isset($_POST['login'])){
+					include 'includes/config.php';
+					
+					$uname = $_POST['uname'];
+					$pass = $_POST['pass'];
+					
+					$query = "SELECT * FROM admin WHERE uname = '$uname' AND pass = '$pass'";
+					$rs = $conn->query($query);
+					$num = $rs->num_rows;
+					$rows = $rs->fetch_assoc();
+					if($num > 0){
+						session_start();
+						$_SESSION['uname'] = $rows['uname'];
+						$_SESSION['pass'] = $rows['pass'];
+						echo "<script type = \"text/javascript\">
+									alert(\"Login Successful.................\");
+									window.location = (\"admin/index.php\")
+									</script>";
+					} else{
+						echo "<script type = \"text/javascript\">
+									alert(\"Login Failed. Try Again................\");
+									window.location = (\"login.php\")
+									</script>";
+					}
+				}
+			?>
+			</div>
+			<a href="#" class="advanced_search_icon" id="advanced_search_btn"></a>
+		</div>
+
+	</section><!--  end search section  -->
