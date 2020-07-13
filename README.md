@@ -1,10 +1,13 @@
-# Online Ambulance Booking
+# *AAROGYA*
+# Online Ambulance Booking Service 
 Updates on repository
 **MehaRima/WebApplication**
+WebApplication
+Major Project
+
 __________________________________________________________________________________________________________________________________________
 ## This ambulance booking website is based on php as a backend for university major web project
-# WebApplication
-Major Project
+
 
 # Online Ambulance Booking Service
 
