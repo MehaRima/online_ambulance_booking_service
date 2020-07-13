@@ -1,4 +1,5 @@
-# Online Ambulance Booking
+# AAROGYA
+*Online Ambulance Booking Service*
 ### [GitHub Repository link](https://meharima.github.io/online_ambulance_booking_service/)
 
 
@@ -12,7 +13,11 @@ ___________________________________________________________________________
 
 # Online Ambulance Booking Service
 
-This ambulance booking website is based on php as a backend for university major web project
+This ambulance booking website is based on 
+### Php,MySql for creating the back end 
+*and* 
+### Html,Css as the front end part of the service 
+ required for university major web project
 
 # Project Update: 21.04.2020 
 
