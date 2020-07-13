@@ -2,8 +2,8 @@
 # Online Ambulance Booking Service 
 Updates on repository
 **MehaRima/WebApplication**
-WebApplication
-Major Project
+This contains all the documents whose links are given below alongwith the zip file for easy downloading.
+
 
 __________________________________________________________________________________________________________________________________________
 ## This ambulance booking website is based on php as a backend for university major web project
@@ -13,6 +13,7 @@ ________________________________________________________________________________
 
 This ambulance booking website is based on php as a backend for university major web project
 
+# *Major Project*
 # Project Update: 21.04.2020 
 
 https://docs.google.com/document/d/e/2PACX-1vSNHORkCzjNMBzHy1qewcqMhWAtXiYp2ru2l09j-NJL39rAijfrOt_azM-Wkv573dCNUzVCE-WHEWqt/pub
