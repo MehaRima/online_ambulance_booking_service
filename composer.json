@@ -1,0 +1,5 @@
+steps:
+  - name: Run composer
+    uses: nick-zh/composer-php@master
+    with:
+      action: 'install -oa'
