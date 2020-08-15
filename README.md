@@ -1,3 +1,5 @@
+![PHP Composer](https://github.com/MehaRima/online_ambulance_booking_service/workflows/PHP%20Composer/badge.svg?branch=master)
+
 # AAROGYA
 *Online Ambulance Booking Service*
 ### [GitHub Repository link](https://meharima.github.io/online_ambulance_booking_service/)
