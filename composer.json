@@ -1,30 +1,112 @@
-$ composer config repositories.drupal composer https://packages.drupal.org/8
 {
-    "name": "drupal/mobile_detect",
-    "description": "Mobile_Detect is a lightweight PHP class for detecting mobile devices.",
-    "type": "drupal-module",
-    "homepage": "https://drupal.org/project/mobile_detect",
+    "name": "composer/installers",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "description": "A multi-framework Composer library installer",
+    "keywords": [
+        "installer",
+        "Aimeos",
+        "AGL",
+        "AnnotateCms",
+        "Attogram",
+        "Bitrix",
+        "CakePHP",
+        "Chef",
+        "Cockpit",
+        "CodeIgniter",
+        "concrete5",
+        "Craft",
+        "Croogo",
+        "DokuWiki",
+        "Dolibarr",
+        "Drupal",
+        "Elgg",
+        "Eliasis",
+        "ExpressionEngine",
+        "eZ Platform",
+        "FuelPHP",
+        "Grav",
+        "Hurad",
+        "ImageCMS",
+        "iTop",
+        "Joomla",
+        "Kanboard",
+        "Known",
+        "Kohana",
+        "Lan Management System",
+        "Laravel",
+        "Lavalite",
+        "Lithium",
+        "Magento",
+        "majima",
+        "Mako",
+        "MantisBT",
+        "Mautic",
+        "Maya",
+        "MODX",
+        "MODX Evo",
+        "MediaWiki",
+        "OXID",
+        "osclass",
+        "MODULEWork",
+        "Moodle",
+        "Piwik",
+        "pxcms",
+        "phpBB",
+        "Plentymarkets",
+        "PPI",
+        "Puppet",
+        "Porto",
+        "RadPHP",
+        "ReIndex",
+        "Roundcube",
+        "shopware",
+        "SilverStripe",
+        "SMF",
+        "SyDES",
+        "Sylius",
+        "symfony",
+        "Thelia",
+        "TYPO3",
+        "WHMCS",
+        "WolfCMS",
+        "WordPress",
+        "YAWIK",
+        "Zend",
+        "Zikula"
+    ],
+    "homepage": "https://composer.github.io/installers/",
     "authors": [
         {
-            "name": "Matthew Donadio (mpdonadio)",
-            "homepage": "https://www.drupal.org/u/mpdonadio",
-            "role": "Maintainer"
-        },
-        {
-            "name": "Darryl Norris (darol100)",
-            "email": "admin@darrylnorris.com",
-            "homepage": "https://www.drupal.org/u/darol100",
-            "role": "Co-maintainer"
+            "name": "Kyle Robinson Young",
+            "email": "kyle@dontkry.com",
+            "homepage": "https://github.com/shama"
         }
     ],
-    "support": {
-        "issues": "https://drupal.org/project/issues/mobile_detect",
-        "irc": "irc://irc.freenode.org/drupal-contribute",
-        "source": "https://cgit.drupalcode.org/mobile_detect"
+    "autoload": {
+        "psr-4": { "Composer\\Installers\\": "src/Composer/Installers" }
     },
-    "license": "GPL-2.0-or-later",
-    "minimum-stability": "dev",
+    "extra": {
+        "class": "Composer\\Installers\\Plugin",
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "replace": {
+        "shama/baton": "*",
+        "roundcube/plugin-installer": "*"
+    },
     "require": {
-        "mobiledetect/mobiledetectlib": "~2.8"
+        "composer-plugin-api": "^1.0 || ^2.0"
+    },
+    "require-dev": {
+        "composer/composer": "1.6.* || 2.0.*@dev",
+        "composer/semver": "^1 || ^3",
+        "phpunit/phpunit": "^4.8.36",
+        "sebastian/comparator": "^1.2.4",
+        "symfony/process": "^2.3"
+    },
+    "scripts": {
+        "test": "phpunit"
     }
 }
