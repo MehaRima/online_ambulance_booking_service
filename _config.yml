@@ -1,3 +1,1 @@
 theme: jekyll-theme-leap-day
-- name: composer-php
-  uses: nick-zh/composer@php7.4
