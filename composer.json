@@ -1,5 +1,30 @@
-steps:
-  - name: Run composer
-    uses: nick-zh/composer-php@master
-    with:
-      action: 'install -oa'
+$ composer config repositories.drupal composer https://packages.drupal.org/8
+{
+    "name": "drupal/mobile_detect",
+    "description": "Mobile_Detect is a lightweight PHP class for detecting mobile devices.",
+    "type": "drupal-module",
+    "homepage": "https://drupal.org/project/mobile_detect",
+    "authors": [
+        {
+            "name": "Matthew Donadio (mpdonadio)",
+            "homepage": "https://www.drupal.org/u/mpdonadio",
+            "role": "Maintainer"
+        },
+        {
+            "name": "Darryl Norris (darol100)",
+            "email": "admin@darrylnorris.com",
+            "homepage": "https://www.drupal.org/u/darol100",
+            "role": "Co-maintainer"
+        }
+    ],
+    "support": {
+        "issues": "https://drupal.org/project/issues/mobile_detect",
+        "irc": "irc://irc.freenode.org/drupal-contribute",
+        "source": "https://cgit.drupalcode.org/mobile_detect"
+    },
+    "license": "GPL-2.0-or-later",
+    "minimum-stability": "dev",
+    "require": {
+        "mobiledetect/mobiledetectlib": "~2.8"
+    }
+}
