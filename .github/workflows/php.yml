@@ -17,6 +17,9 @@ jobs:
     - name: Validate composer.json and composer.lock
       run: composer validate
       
+    - name: composer-php
+      uses: nick-zh/composer@php7.4
+   
     - name: Cache Composer packages
       id: composer-cache
       uses: actions/cache@v2
@@ -35,3 +38,5 @@ jobs:
 
     # - name: Run test suite
     #   run: composer run-script test
+
+
