@@ -13,7 +13,7 @@ Updates on
  contains all the documents whose links are given below alongwith the zip file for easy downloading.
  
  ## Steps to run this project
- ![Steps to run this project](https://github.com/MehaRima/online_ambulance_booking_service/blob/master/Project_deployment_steps.md)
+ [Steps to run this project](https://github.com/MehaRima/online_ambulance_booking_service/blob/master/Project_deployment_steps.md)
 
 
 
