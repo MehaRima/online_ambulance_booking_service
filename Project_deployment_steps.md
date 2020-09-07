@@ -1,4 +1,6 @@
-## Extract this -> carrental.zip
+# Run the Application Locally
+
+### Extract this -> carrental.zip
 
 ### _Steps_
 
