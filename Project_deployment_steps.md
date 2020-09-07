@@ -1,5 +1,15 @@
 # Run the Application Locally
 
+## Requirements
+
+-- phpMyAdmin 
+-- version 4.4.14
+-- http://www.phpmyadmin.net
+--
+-- Host: 127.0.0.1
+-- Server version: 5.6.26
+-- PHP Version: 5.5.28
+
 ### Extract this -> [carrental.zip](https://github.com/MehaRima/WebApplication/blob/master/carrental.zip)
 
 ### _Steps_
