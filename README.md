@@ -1,5 +1,4 @@
-![PHP Composer](https://github.com/MehaRima/online_ambulance_booking_service/workflows/PHP%20Composer/badge.svg?branch=master)
-![CodeQL](https://github.com/MehaRima/online_ambulance_booking_service/workflows/CodeQL/badge.svg?branch=master)
+
 
 
 
