@@ -32,6 +32,12 @@
 
 8.Then import file: [carrental.sql](https://github.com/MehaRima/online_ambulance_booking_service/blob/master/carrental.sql) in the Import section of the table created
 
+ # Admin 
+- Username :- *admin*
+- Password :- *admin12345*
+
+### In case the above mentioned admin can't be accessed , please create one of your own in the database (table name : admin)
+
 9.Save 
 
 10.Browse the Aarogya Service Web Application
