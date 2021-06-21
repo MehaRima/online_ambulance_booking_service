@@ -2,6 +2,9 @@
 
 ## Requirements
 
+- XAMPP : 
+  - Download compatible version from [here](https://www.apachefriends.org/download.html)
+
 - phpMyAdmin : _version 4.4.14_
   - Download from [here](https://www.phpmyadmin.net/files/4.4.14.1/)
   ### For [latest version](http://www.phpmyadmin.net)
