@@ -28,9 +28,9 @@
 6.Again,type in browser
  - http://localhost:85/phpmyadmin/
  
-7.Then create a table: carrental
+7.Then create a database: carrental
 
-8.Then import file: [carrental.sql](https://github.com/MehaRima/online_ambulance_booking_service/blob/master/carrental.sql) in the Import section of the table created
+8.Then import file: [carrental.sql](https://github.com/MehaRima/online_ambulance_booking_service/blob/master/carrental.sql) in the Import section of the database created
 
  # Admin 
 - Username :- *admin*
