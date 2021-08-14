@@ -60,5 +60,5 @@ This ambulance booking website is based on
 ***
 
 ### Connect with creator 
-[Saheli Basu](https://meharima.github.io/sb/)
+[Saheli Basu](https://www.linkedin.com/in/saheli-basu/)
 
