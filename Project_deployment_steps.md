@@ -40,7 +40,7 @@
 - Password :- *admin*
 
  # User 
-- Username/Email :- *sb@g.comn*
+- Username/Email :- *sb@g.com*
 - Password :- *sb@g*
 
 ### In case the above mentioned admin isn't accessible , please create one of your own in the database under the table name : admin.
