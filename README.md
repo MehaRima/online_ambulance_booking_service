@@ -44,7 +44,7 @@ This ambulance booking website is based on
 # Slides 
 
 *PDF*
-[Format](https://github.com/MehaRima/WebApplication/blob/master/PPT%20Major%20project.pdf)
+[Format](#)
 
 *Google Slides*
 [PPT format](https://docs.google.com/presentation/d/1uTM_rTVlEaN3T8HKYE_00S49B31z2SRQOwuoUglfGQM/edit?usp=sharing)
@@ -55,7 +55,7 @@ This ambulance booking website is based on
 
 **But don't infringe ,that's an earnest request.**
 
-**Please note:This project is under development and is created as a part of Final Year Project**
+**Please note:This is the updated version of the project created as a part of Final Year Project**
 
 ***
 
