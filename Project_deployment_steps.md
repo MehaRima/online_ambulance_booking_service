@@ -17,11 +17,11 @@
 
 ### _Steps_
 
-1.Save the folder [aarogya_v1.2]
+1.Download the zip file `aarogya_v1.2.zip`
 
 2.Don't change any name of files.
 
-3.Save the extracted folder in C:>htdocs>aarogya_v1.2
+3.Extracted folder `aarogya_v1.2` under `C:>htdocs` as `C:>htdocs>aarogya_v1.2`
 
 4.Type this in web browser
  - http://localhost:85/aarogya_v1.2/  (80/8080 can be used in place of 85 if port allocation problem arises)
@@ -31,9 +31,9 @@
 6.Again,type in browser
  - http://localhost:85/phpmyadmin/
  
-7.Then create a database: aarogya_v1.2_db
+7.Create a database: `aarogya_v1.2_db`
 
-8.Then import file: [aarogya_v1.2_db.sql](https://github.com/MehaRima/aarogya_v1.2/blob/master/aarogya_v1.2_db.sql) in the Import section of the database created
+8.Import file: [aarogya_v1.2_db.sql](https://github.com/MehaRima/aarogya_v1.2/blob/master/aarogya_v1.2_db.sql) in the Import section of the database created
 
  # Admin 
 - Username :- *admin*
