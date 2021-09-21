@@ -13,33 +13,39 @@
 - Server version: 5.6.26
 - PHP Version: 5.5.28
 
-### Extract this -> [carrental.zip](https://github.com/MehaRima/WebApplication/blob/master/carrental.zip)
+### Extract this -> [aarogya_v1.2.zip](https://github.com/MehaRima/aarogya_v1.2/blob/master/carrental.zip)
 
 ### _Steps_
 
-1.Save the folder [carrental]
+1.Save the folder [aarogya_v1.2]
 
 2.Don't change any name of files.
 
-3.Save the extracted folder in C:>htdocs>carrental
+3.Save the extracted folder in C:>htdocs>aarogya_v1.2
 
 4.Type this in web browser
- - http://localhost:85/carrental/  (80/8080 can be used in place of 85 if port allocation problem arises)
+ - http://localhost:85/aarogya_v1.2/  (80/8080 can be used in place of 85 if port allocation problem arises)
  
 5.Go to Xampp control Panel and Start Apache & MySQL
 
 6.Again,type in browser
  - http://localhost:85/phpmyadmin/
  
-7.Then create a database: carrental
+7.Then create a database: aarogya_v1.2_db
 
-8.Then import file: [carrental.sql](https://github.com/MehaRima/online_ambulance_booking_service/blob/master/carrental.sql) in the Import section of the database created
+8.Then import file: [aarogya_v1.2_db.sql](https://github.com/MehaRima/aarogya_v1.2/blob/master/aarogya_v1.2_db.sql) in the Import section of the database created
 
  # Admin 
 - Username :- *admin*
-- Password :- *admin12345*
+- Password :- *admin*
 
-### In case the above mentioned admin can't be accessed , please create one of your own in the database (table name : admin)
+ # User 
+- Username/Email :- *sb@g.comn*
+- Password :- *sb@g*
+
+### In case the above mentioned admin isn't accessible , please create one of your own in the database under the table name : admin.
+` Similarly for the user , create one entry of your own in the database under the table name : tblusers  `
+
 
 9.Save 
 
@@ -47,4 +53,5 @@
 
 ### Sincerely
 
-### _SAHELI BASU_
+### _SAHELI BASU_!
+
