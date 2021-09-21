@@ -13,7 +13,7 @@
 
 
 Updates on 
-**[this repository](https://meharima.github.io/WebApplication/)**
+**[this repository](https://meharima.github.io/aarogya_v1.2/)**
  contains all the documents whose links are given below alongwith the zip file for easy downloading.
  
  ## Steps to run this project
@@ -27,7 +27,7 @@ ___________________________________________________________________________
 # Online Ambulance Booking Service
 
 This ambulance booking website is based on 
-### Php,MySql for creating the back end *and* Html,Css as the front end part of the service required for university major web project
+### Php,MySql for creating the back end *and* Html,Css,Js as the front end part of the service required for university major web project
 
 # Project Update: 21.04.2020 
 
