@@ -39,7 +39,7 @@ This ambulance booking website is based on
 ## Updates on *30.06.2020*
 
 # Documentation
-[Documentation](https://docs.google.com/document/d/1alv433NpcmSsteQpbXR5OGWcF-3XErqJuvVmkBET-8g/edit?usp=sharing)
+[Documentation](#)
 
 # Slides 
 
@@ -47,7 +47,7 @@ This ambulance booking website is based on
 [Format](#)
 
 *Google Slides*
-[PPT format](https://docs.google.com/presentation/d/1uTM_rTVlEaN3T8HKYE_00S49B31z2SRQOwuoUglfGQM/edit?usp=sharing)
+[PPT format](#)
 
 ## Be respectful when you communicate ##
 
