@@ -36,18 +36,7 @@ This ambulance booking website is based on
 
 [GitHub Page link](https://meharima.github.io/online_ambulance_booking_service/)
 
-## Updates on *30.06.2020*
-
-# Documentation
-[Documentation](#)
-
-# Slides 
-
-*PDF*
-[Format](#)
-
-*Google Slides*
-[PPT format](#)
+# Final updates on *30.06.2020*
 
 ## Be respectful when you communicate ##
 
